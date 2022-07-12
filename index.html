@@ -4,71 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-markup-hw-01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>goit-markup-hw-01</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="page-header">
       <!-- site-header -->
-      <nav>
-        <a href="index.html">WebStudio</a>
-        <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+      <nav class="main-nav">
+        <a class="logo link-line" href="index.html">WebStudio</a>
+        <ul class="menu no-style">
+          <li class="menu-item">
+            <a class="menu-link link-line" href="index.html">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link-line" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link-line" href="index.html">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@example.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111">+38 099 111 11 11></a></li>
+      <ul class="contacts-main no-style">
+        <li>
+          <a class="contacts link-line" href="mailto:info@example.com">info@devstudio.com</a>
+        </li>
+        <li><a class="contacts link-line" href="tel:+380991111111">+38 099 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <!-- hero -->
-        <h1>Effective solutions for your business</h1>
-        <button class="service-order" type="button">Request our service</button>
+        <h1 class="hero-title">Effective solutions for your business</h1>
+        <button class="order-btn" type="button">Request our service</button>
       </section>
       <section>
-        <!-- our best features hidden-->
-        <h2>Our best features</h2>
-        <ul>
+        <!-- our best features-->
+        <h2 class="features-main">Our best features</h2>
+        <ul class="no-style">
           <li>
-            <h3>Attention to details</h3>
-            <p>
+            <h3 class="features-title">Attention to details</h3>
+            <p class="features-desc">
               We go into all the details and processes of your business to develop a customized
               solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-desc">
               With us, you can feel safe and secure. An important principle of the company: respect
               your time and respect the agreed deadlines.
             </p>
           </li>
           <li>
-            <h3>Planning</h3>
-            <p>
+            <h3 class="features-title">Planning</h3>
+            <p class="features-desc">
               You will be able to observe and participate in every phase of solution development and
               implementation.
             </p>
           </li>
           <li>
-            <h3>Modern technologies</h3>
-            <p>
+            <h3 class="features-title">Modern technologies</h3>
+            <p class="features-desc">
               We use innovative tools to solve assigned tasks. It's time to simplify work processes.
             </p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="what-we-do">
         <!-- what we do -->
-        <h2>What we do</h2>
-        <ul>
+        <h2 class="suptitle">What we do</h2>
+        <ul class="what-we-do-img no-style">
           <li>
             <img
               src="./images/what-we-do/box-1.jpg"
@@ -95,63 +106,76 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="team">
         <!-- our team -->
-        <h2>Our team</h2>
-        <ul>
+        <h2 class="suptitle">Our team</h2>
+        <ul class="team-profiles no-style">
           <li>
             <img
+              class="team-photo"
               src="./images/our-team/ihor.jpg"
               alt="Igor Demianenko foto"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/our-team/olga.jpg" alt="Olga Repina foto" width="270" height="260" />
-            <h3 lang="ru">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name" lang="ru">Игорь Демьяненко</h3>
+            <p class="team-desc">Product Designer</p>
           </li>
           <li>
             <img
+              class="team-photo"
+              src="./images/our-team/olga.jpg"
+              alt="Olga Repina foto"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name" lang="ru">Ольга Репина</h3>
+            <p class="team-desc">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              class="team-photo"
               src="./images/our-team/mykola.jpg"
               alt="Mykola Tarasov foto"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-name" lang="ru">Николай Тарасов</h3>
+            <p class="team-desc">Marketing</p>
           </li>
           <li>
             <img
+              class="team-photo"
               src="./images/our-team/mikhail.jpg"
               alt="Mikhail Ermakov foto"
               width="270"
               height="260"
             />
-            <h3 lang="ru">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-name" lang="ru">Михаил Ермаков</h3>
+            <p class="team-desc">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <!-- contacts -->
-      <a href="index.html">WebStudio</a>
+      <a class="logo link-line" href="index.html">WebStudio</a>
       <address>
-        <ul>
+        <ul class="no-style">
           <li>
             <a
+              class="address-foot link-line"
               href="https://goo.gl/maps/F33JLBxJRXzu59hU8"
               target="_blank"
               rel="noopener noreferrer"
-              >695 Park Ave, New York, NY 10065,United States</a
+              >695 Park Ave, New York, NY 10065, <br />
+              United States</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a class="contacts-foot link-line" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li><a class="contacts-foot link-line" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>

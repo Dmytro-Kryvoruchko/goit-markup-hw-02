@@ -16,7 +16,7 @@
   <body>
     <header class="page-header">
       <!-- site-header -->
-      <div class="header-container">
+      <div class="wrapper header-wrapper">
         <nav class="main-nav">
           <a class="logo-header link-line" href="index.html"
             ><span class="logo-span">Web</span>Studio</a
@@ -44,12 +44,16 @@
       </div>
     </header>
     <main>
+      <!-- hero -->
       <section class="hero">
-        <!-- hero -->
-        <h1 class="hero-title">Effective solutions for your business</h1>
-        <button class="order-btn" type="button">Request our service</button>
+        <img src="./images/hero-section/hero-overlay.jpg" alt="three persons woark in the ofice" />
+        <div class="wrapper">
+          <h1 class="hero-title">Effective solutions for your business</h1>
+          <button class="order-btn" type="button">Request our service</button>
+        </div>
       </section>
-      <section>
+
+      <section class="wrapper">
         <!-- our best features-->
         <h2 class="visually-hidden">Our best features</h2>
         <ul class="no-style">
@@ -82,7 +86,7 @@
           </li>
         </ul>
       </section>
-      <section class="what-we-do">
+      <section class="what-we-do wrapper">
         <!-- what we do -->
         <h2 class="suptitle">What we do</h2>
         <ul class="what-we-do-img no-style">
@@ -114,78 +118,84 @@
       </section>
       <section class="team">
         <!-- our team -->
-        <h2 class="suptitle">Our team</h2>
-        <ul class="team-profiles no-style">
-          <li>
-            <img
-              class="team-photo"
-              src="./images/our-team/ihor.jpg"
-              alt="Igor Demianenko foto"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name" lang="ru">Игорь Демьяненко</h3>
-            <p class="team-desc">Product Designer</p>
-          </li>
-          <li>
-            <img
-              class="team-photo"
-              src="./images/our-team/olga.jpg"
-              alt="Olga Repina foto"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name" lang="ru">Ольга Репина</h3>
-            <p class="team-desc">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              class="team-photo"
-              src="./images/our-team/mykola.jpg"
-              alt="Mykola Tarasov foto"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name" lang="ru">Николай Тарасов</h3>
-            <p class="team-desc">Marketing</p>
-          </li>
-          <li>
-            <img
-              class="team-photo"
-              src="./images/our-team/mikhail.jpg"
-              alt="Mikhail Ermakov foto"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name" lang="ru">Михаил Ермаков</h3>
-            <p class="team-desc">UI Designer</p>
-          </li>
-        </ul>
+        <div class="wrapper">
+          <h2 class="suptitle">Our team</h2>
+          <ul class="team-profiles no-style">
+            <li>
+              <img
+                class="team-photo"
+                src="./images/our-team/ihor.jpg"
+                alt="Igor Demianenko foto"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name" lang="ru">Игорь Демьяненко</h3>
+              <p class="team-desc">Product Designer</p>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./images/our-team/olga.jpg"
+                alt="Olga Repina foto"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name" lang="ru">Ольга Репина</h3>
+              <p class="team-desc">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./images/our-team/mykola.jpg"
+                alt="Mykola Tarasov foto"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name" lang="ru">Николай Тарасов</h3>
+              <p class="team-desc">Marketing</p>
+            </li>
+            <li>
+              <img
+                class="team-photo"
+                src="./images/our-team/mikhail.jpg"
+                alt="Mikhail Ermakov foto"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name" lang="ru">Михаил Ермаков</h3>
+              <p class="team-desc">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <!-- contacts -->
-      <a class="logo-footer link-line" href="index.html"
-        ><span class="logo-span">Web</span>Studio</a
-      >
-      <address>
-        <ul class="no-style">
-          <li>
-            <a
-              class="address-foot link-line"
-              href="https://goo.gl/maps/F33JLBxJRXzu59hU8"
-              target="_blank"
-              rel="noopener noreferrer"
-              >695 Park Ave, New York, NY 10065, <br />
-              United States</a
-            >
-          </li>
-          <li>
-            <a class="contacts-foot link-line" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li><a class="contacts-foot link-line" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="wrapper">
+        <a class="logo-footer link-line" href="index.html"
+          ><span class="logo-span">Web</span>Studio</a
+        >
+        <address>
+          <ul class="no-style">
+            <li>
+              <a
+                class="address-foot link-line"
+                href="https://goo.gl/maps/F33JLBxJRXzu59hU8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >695 Park Ave, New York, NY 10065, <br />
+                United States</a
+              >
+            </li>
+            <li>
+              <a class="contacts-foot link-line" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li>
+              <a class="contacts-foot link-line" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
